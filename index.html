@@ -1,0 +1,33 @@
+<html>
+    <body>
+        <h1>Welcome To Brian's WebPage</h1>
+        <!--- any data that is received as the form is committed 
+            action changes the url to /name and adds in the values from the form to the url also  -->
+            <h3>Get Form</h3>
+        <form action="/name" target="_blank" method="GET">
+        Firstname:
+        <br>
+        <input type="text" name="firstname" value="Brian">
+        <br>
+        Lastname:
+        <br>
+        <input type="text" name="lastname" value="Morrison">
+        <br>
+        <input type="submit" value="Add">
+        </form>
+<br>
+ <!--- sending data with a http post request -->
+        <h3>Post Form</h3>
+        <form action="/name" target="_blank" method="GET">
+            Firstname:
+            <br>
+            <input type="text" name="firstname" value="Brian">
+            <br>
+            Lastname:
+            <br>
+            <input type="text" name="lastname" value="Morrison">
+            <br>
+            <input type="submit" value="Add">
+            </form>
+    </body>
+</html>
